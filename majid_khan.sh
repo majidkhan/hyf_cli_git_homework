@@ -2,7 +2,7 @@ mkdir cabbage
 cd cabbage
 pwd
 touch orange.txt
-for run in {1..5}
+for run in `seq 1 5`
 do 
 echo "Hello" >> orange.txt
 done
